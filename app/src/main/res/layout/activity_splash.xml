@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1.0"
+        android:layout_weight="1.0">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_weight="0.2" />
+
+        <TextView
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"
+            android:id="@id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DataScience" />
+
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#ececec"
+            android:gravity="center"
+            android:id="@+id/internet"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Please Check Your Internet Connection and Try Again....." />
+
+    <Button
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:id="@+id/tryagain"
+        android:padding="15dp"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Try Again"
+        android:inputType="textCapWords"/>
+    </LinearLayout>
+</LinearLayout>

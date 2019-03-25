@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+<item android:title="learn"
+    android:icon="@drawable/read1"
+    android:id="@+id/learn"/>
+    <item android:id="@+id/blogs"
+        android:icon="@drawable/blog1"
+        android:title="Blogs"/>
+    <item android:title="Favourites"
+        android:icon="@drawable/img_star_grey"
+        android:id="@+id/fav"
+        />
+    <item android:id="@+id/rate"
+        android:icon="@drawable/star"
+        android:title="Rate Us"/>
+    </group>
+</menu>

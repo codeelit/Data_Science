@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="codeelit.datascience">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="DataScience"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5114081685878859~2944793273" />
+
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".numpy"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".machinelearning"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".pandas"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".aboutus"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".feedback"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".statistics_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".exploratory_data_analysis"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".distribution_statisticsmath"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".probability_mass_function_ststisticsmath"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".cumulative_distribution_ststisticsmath"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".modeling_distribution_statisticsmath"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".probability_density_statisticsmath"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".relationshipbtw_var_statisticsmath"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".estimation_statisticsmath"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".hypothesis_statisticsmath"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".linearleastsquare_statisticsmath"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".regression_statisticsmath"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".timeseries_statisticsmath"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".survival_statisticsmath"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".analytical_statisticalmath"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".linearalgebramathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".linearsystem"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".optimization_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".notatoin_optimization_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".Preliminaries_optimiz_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".lagrangian_optimization_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".lagrangian_dual_optimization_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".solutionlpp_optimization_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".simplex_optimization_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".simplex_tab_optimization_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".algebra_of_lp_optimization_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".shadow_optimization_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".two_person_optimization_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".maximal_optimization_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".minimum_optimization_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".transportation_optimization_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".basics_la_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".Ranks_la_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".orthogonality_la_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".Determinats_la_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".Partitioned_la_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".linearTrans_la_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".changeofbasis_la_mathml"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".pandas_prilim"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".pandas_dataframe"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".pandas_pivot"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".pandas_cate"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".panadas_basic_stat"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".matplotlib"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".Blog"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".website"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".matplot_intro"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".Mathplotlib_simple_plot"
+            android:theme="@style/Base.AppTheme" />
+        <activity android:name=".matplotlib_fsat" />
+        <activity
+            android:name=".mathplotlib_animation"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".matplotlib_other_plots"
+            android:theme="@style/Base.AppTheme" />
+        <activity
+            android:name=".intro_ml"
+            android:theme="@style/Base.AppTheme" />
+
+        <service
+            android:name=".GCM.MyFirebaseMessagingService"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service android:name=".GCM.FirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Main3Activity"></activity>
+    </application>
+
+</manifest>

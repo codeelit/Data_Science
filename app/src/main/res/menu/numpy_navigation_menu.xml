@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/nav_introduction"
+    android:title="Introduction"/>
+    <item android:id="@+id/nav_datatype"
+        android:title="DataTypes"/>
+    <item android:id="@+id/nav_indexing"
+        android:title="Indexing"/>
+    <item android:id="@+id/nav_iterating"
+        android:title="Iterating Over Array"/>
+    <item android:id="@+id/nav_input_output"
+        android:title="Input Output"/>
+    <item android:id="@+id/nav_linear_algebra"
+        android:title="Linear Alzebra"/>
+    <item android:id="@+id/nav_searchingsorting"
+        android:title="Searching Sorting"/>
+    <item android:id="@+id/nav_random_sampling"
+        android:title="Random Sampling"/>
+    <item android:id="@+id/nav_statistics"
+        android:title="Statistics"/>
+
+
+</menu>

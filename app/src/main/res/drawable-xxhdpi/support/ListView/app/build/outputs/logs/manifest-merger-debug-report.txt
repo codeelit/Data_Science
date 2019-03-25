@@ -1,0 +1,91 @@
+-- Merging decision tree log ---
+manifest
+ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml
+		INJECTED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml
+		INJECTED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml
+		INJECTED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml
+application
+ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:5:5-20:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\cba28a622e2c00824d50c7ff87231587514fcab9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\2696e79aa03933f0d099d1bd74f5be560b617e58\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\8c919c01d778b692aaf7d0c6c428973078b6a80e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\4e4a284dc26a8656e024b7f053e1c9d3d68e6d90\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\aaeb0c40d3ffda1bdcf3807b00deaf7db0931102\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\cf338a1eb8958c0801a3ba36e4a25a78916b32ee\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\60142f8f46f53581d8cb1029373260b65d2a374a\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\8687cd201107997fb03997f3ddd8a42294e97391\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\5c9726518c5dd6e873440859d6f4eea717c40cb9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] C:\Users\ColorsFx\.android\build-cache\2040ae390684259498259be858c8f33f8c8bd1e5\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:11:9-40
+activity#www.smartandroidcourse.com.listview.MainActivity
+ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:16:27-74
+activity#www.smartandroidcourse.com.listview.ItemView
+ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:19:9-55
+	android:name
+		ADDED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml:19:19-43
+uses-sdk
+INJECTED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\cba28a622e2c00824d50c7ff87231587514fcab9\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\2696e79aa03933f0d099d1bd74f5be560b617e58\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\8c919c01d778b692aaf7d0c6c428973078b6a80e\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\4e4a284dc26a8656e024b7f053e1c9d3d68e6d90\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\aaeb0c40d3ffda1bdcf3807b00deaf7db0931102\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\cf338a1eb8958c0801a3ba36e4a25a78916b32ee\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\60142f8f46f53581d8cb1029373260b65d2a374a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\8687cd201107997fb03997f3ddd8a42294e97391\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\5c9726518c5dd6e873440859d6f4eea717c40cb9\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] C:\Users\ColorsFx\.android\build-cache\2040ae390684259498259be858c8f33f8c8bd1e5\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\cba28a622e2c00824d50c7ff87231587514fcab9\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml
+		INJECTED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml
+		INJECTED from H:\ANDROID_APP\SAC\Pdf\ActivityToActivity\ListView\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\cba28a622e2c00824d50c7ff87231587514fcab9\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\2696e79aa03933f0d099d1bd74f5be560b617e58\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\8c919c01d778b692aaf7d0c6c428973078b6a80e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\4e4a284dc26a8656e024b7f053e1c9d3d68e6d90\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\aaeb0c40d3ffda1bdcf3807b00deaf7db0931102\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\cf338a1eb8958c0801a3ba36e4a25a78916b32ee\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\60142f8f46f53581d8cb1029373260b65d2a374a\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\8687cd201107997fb03997f3ddd8a42294e97391\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\5c9726518c5dd6e873440859d6f4eea717c40cb9\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\cba28a622e2c00824d50c7ff87231587514fcab9\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\ColorsFx\.android\build-cache\cba28a622e2c00824d50c7ff87231587514fcab9\output\AndroidManifest.xml:26:9-47

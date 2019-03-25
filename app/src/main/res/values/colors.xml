@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0892d0</color>
+    <color name="colorPrimaryDark">#0892d0</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dividerColor">#80CBC4</color>
+    <color name="list_item_title">#aaaaaa</color>
+    <color name="list_group_title">#808080</color>
+    <color name="background">#0892d0</color>
+    <color name="colorAmber_A400">#0892d0</color>
+    <color name="colorAmber_900">#4A148C</color>
+    <color name="colorPurple_A400">#D500F9</color>
+    <color name="colorPurple_900">#4A148C</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#212121</color>
+    <color name="transparent">#00000000</color>
+    <color name="product_list_item_bg">#ffffff</color>
+    <color name="view_divider_color">#BABABA</color>
+    <color name="red">#ff1625</color>
+</resources>

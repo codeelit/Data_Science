@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    tools:ignore="MissingPrefix" />
+    <item
+        android:id="@+id/nav_linear_algebra_ml"
+        android:title="Linear Algebra"
+
+        />
+
+    <item android:id="@+id/nav_statiatics_ml"
+        android:title="Statistics"/>
+    <item android:id="@+id/nav_optimization_ml"
+        android:title="Optimization"/>
+</menu>
